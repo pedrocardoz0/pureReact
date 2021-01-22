@@ -1,0 +1,33 @@
+{
+  "name": "adopt-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint \"src/**/*.{js, jsx}\" --quiet",
+    "format": "prettier \"src/**/*.{js, html}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrocardoz0/pureReact.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrocardoz0/pureReact/issues"
+  },
+  "homepage": "https://github.com/pedrocardoz0/pureReact#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
